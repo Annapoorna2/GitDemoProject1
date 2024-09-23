@@ -1,0 +1,23 @@
+package git;
+
+public class Testprogram {
+	public static void main(String[] args) {
+
+		//Object type store any data type of elements inside this variable
+				
+				Object a[]=new Object[5];
+				
+				a[0]=10;
+				a[1]=20.786;
+				a[2]="Welcome";
+				a[3]='A';
+				a[4]=true;
+				
+				for(Object i:a)
+				{
+					System.out.println(i);
+				}
+
+			}
+
+}
